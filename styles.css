@@ -78,13 +78,13 @@ h2 {
 	min-width: 10em;
 }
 .at tr th:nth-child(even), .at tr .interactive:nth-child(4n+2), .at tr .interactive:nth-child(4n+3), .ct td, .rt td {
-	background-color: #ccffc1;
+	background-color: white;
 }
 .at tr th:nth-child(odd), .at tr .interactive:nth-child(4n+4), .at tr .interactive:nth-child(4n+1), .ct th, .rt th, .vowels .interactive {
 	background-color: white;
 }
 .at td, .ct .blank {
-	background-color: #eeffea;
+	background-color: white;
 }
 .interactive {
 	cursor: pointer;
