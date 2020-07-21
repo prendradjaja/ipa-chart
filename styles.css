@@ -81,7 +81,7 @@ h2 {
 	background-color: #ccffc1;
 }
 .at tr th:nth-child(odd), .at tr .interactive:nth-child(4n+4), .at tr .interactive:nth-child(4n+1), .ct th, .rt th, .vowels .interactive {
-	background-color: #6f4;
+	background-color: white;
 }
 .at td, .ct .blank {
 	background-color: #eeffea;
