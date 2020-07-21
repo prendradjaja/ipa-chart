@@ -5,6 +5,12 @@
 .IPA {
 	font-family: CustomIPA, "DejaVu Sans", "Arial Unicode MS", "Lucida Sans Unicode", sans-serif;
 }
+body.default20 .IPA {
+	opacity: 0.2;
+}
+body.default0 .IPA {
+	opacity: 0;
+}
 body {
 	font-family: sans-serif;
 	text-align: center;
@@ -113,6 +119,9 @@ h2 {
 	display: inline !important;
 	width: auto !important;
 	text-align: inherit !important;
+}
+.red {
+	color: red;
 }
 .ct td, .rt td {
 	padding: 0.2em 1em 0.2em 0.2em;

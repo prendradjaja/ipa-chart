@@ -21,6 +21,11 @@ var ezo_elements_to_check = Array();
 <div class="text">
 	<h1>Interactive IPA Chart</h1>
 	<p>This page lets you hear the sounds that the symbols represent, but remember that it is only a rough guide. There is lots of variation in how these sounds are said depending on the language and context. For example, in English voiceless plosives usually end with a puff of air called <em>aspiration</em>, but the voiceless plosives on this page aren't aspirated.</p>
+	<div>
+		<button onclick="default100()">100</button>
+		<button onclick="default20()">20</button>
+		<button onclick="default0()">0</button>
+	</div>
 </div>
 
 <div class="text">
@@ -334,6 +339,26 @@ var ezo_elements_to_check = Array();
 	})();</script><script type='text/javascript' style='display:none;' async>
 __ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=188-0&shcb=33', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
 __ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=188-0&shcb=33', false, [], true, false, false, false);
+</script>
+
+<script>
+	document.querySelectorAll('.interactive')
+		.forEach(el => {
+			el.addEventListener('click', () => el.style.opacity = 1)
+		})
+
+	function default100() {
+		document.body.classList.remove('default20');
+		document.body.classList.remove('default0');
+	}
+	function default20() {
+		default100();
+		document.body.classList.add('default20');
+	}
+	function default0() {
+		default100();
+		document.body.classList.add('default0');
+	}
 </script>
 
 <script>var _audins_dom="ipachart_com",_audins_did=188317;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=188-0");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.ipachart_com,DomainId.188317" border="0" height="1" width="1" alt="Quantcast"/></div></noscript><noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=20015427&cv=2.0&cj=1"/></noscript></body>
