@@ -344,7 +344,13 @@ __ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=188-0&sh
 <script>
 	document.querySelectorAll('.interactive')
 		.forEach(el => {
-			el.addEventListener('click', () => el.style.opacity = 1)
+			el.addEventListener('click', () => {
+				if (el.style.opacity) {
+					el.style.opacity = '';
+				} else {
+					el.style.opacity = 1;
+				}
+			})
 		})
 
 	function default100() {

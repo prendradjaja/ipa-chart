@@ -14,6 +14,7 @@ body.default0 .IPA {
 body {
 	font-family: sans-serif;
 	text-align: center;
+	user-select: none;
 }
 h2 {
 	text-align: center;
